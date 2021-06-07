@@ -1,0 +1,37 @@
+<?xmlversion="1.0"encoding="UTF-8"?> 
+  <alipay> 
+  <is_success>T</is_success> 
+   <request> 
+    <param name="_input_charset">UTF-8</param> 
+    <param name="currency">USD</param> 
+    <param name="buyer_identity_code">2013112012345678</param> 
+    <param name="identity_code_type">qrcode</param> 
+    <param name="mcc">4021</param> 
+    <param name="extend_info">{"licence":"123",name=”LG”}</param> 
+    <param name="partner_trans_id">2010121000000002</param> 
+    <param name="partner">2088102012343978</param> 
+    <param name="password">SJV88po0XvIptqWGM4rxP5EQ</param> 
+    <param name="memo">shopping</param> 
+    <param name="service">alipay.acquire.overseas.pay</param> 
+    <param name="sign">22904adafb1806178b410d2d5c9c02a3</param> 
+    <param name="sign_type">MD5</param> 
+    <param name=“trans_name”>Belkin wrist type</param> 
+    <param name="trans_amount">39.25</param> 
+    <param name="trans_create_time">20131120153059</param> 
+   </request> 
+  <response> 
+  <alipay> 
+   <alipay_trans_id>2011091703338463</alipay_trans_id> 
+   <partner_trans_id>201311221000000002</partner_trans_id> 
+   <alipay_buyer_login_id>caoxxx@126.com</alipay_buyer_login_id>
+   <alipay_buyer_user_id>2088102130896433</alipay_buyer_user_id> 
+   <alipay_pay_time>20131120155823</alipay_pay_time> 
+   <exchange_rate>6.0939</exchange_rate> 
+   <trans_amount>39.25</trans_amount> 
+   <trans_amount_CNY>239.19</trans_amount_CNY> 
+   <result_code>SUCCESS</result_code> 
+  </alipay> 
+  </response> 
+  <sign>6fb8a322f15cfd0fcfe65301b10f6994</sign> 
+  <sign_type>MD5</sign_type> 
+ </alipay>
